@@ -50,7 +50,6 @@ int setMaxRepeatedLetters(string letters, int lengthOfLetters){
             counterOfVeriable++;
         }else if(counterOfMax<counterOfVeriable){
             counterOfMax=counterOfVeriable;
-
             counterOfVeriable = 1;
         }else{
             counterOfVeriable = 1;
